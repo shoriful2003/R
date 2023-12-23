@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Yeseva+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    font-family: 'Yeseva One', serif;
+}
+
+h1 h2 h3 h4 h5{
+    font-family: 'Yeseva One', serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+h6{
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --color1: #f3f1f0;
+    --color2: #4c4c4c;
+    --color3: #ffffff;
+    --color4: #cc9600;
+    --color5: #191919;
+    --color6: #fefefe;
+
+}
+
+.logo_img{
+    height: 60px;
+}
+header{
+    height: 100vh;
+    background-image: url(../Image/hero\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, .10) !important;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+
+.nav-item{
+    text-align: center;
+}
+.nav-item a{
+    font-size: 22px;
+    color: var(--color3);
+    transition: .5s;
+}
+.nav-item a:hover{
+    color: var(--color2);
+}
+
+.hero_con h1{
+    padding-top: 100px;
+    padding-bottom: 15px;
+    font-size: 80px;
+    color: var(--color1);
+}
+
+.hero_img{
+    padding-bottom: 50px;
+}
+
+.hero_anchor a{
+    font-size: 18px;
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, .50);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .50);
+    font-family: 'Lato', sans-serif;
+    transition: .5s;
+}
+
+.hero_anchor a:hover{
+    background-color: rgba(255, 255, 255, .50);
+    border-color: rgba(255, 255, 255, .50);
+}
+
+
+.feature_part{
+    height: 110vh;
+    background-image: url(../Image/feature\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.feature_con{
+    padding-top: 70px;
+}
+.feature_con h1{
+    color: var(--color4);
+    padding-bottom: 10px;
+}
+
+.feature_devider{
+    padding-bottom: 30px;
+}
+
+.dish_img{
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.feature_con p{
+    font-size: 16px;
+    color: var(--color2);
+    padding: 0px 50px 10px 60px;
+}
+
+
+
+.about_part{
+    height: 100vh;
+    background-image: url(../Image/fine\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about_con{
+    background-color: rgba(0, 0, 0, .50);
+    margin-top: 70px;
+}
+
+.about_con h1{
+    color: var(--color3);
+    font-size: 36px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.about_devider_img{
+    padding-bottom: 30px;
+}
+
+.about_con p{
+    text-align: justify;
+    font-size: 16px;
+    color: var(--color3);
+    padding: 0px 50px 40px 60px;
+}
+
+
+/* ===== menu part style starting here ===== */
+
+.menu_part{
+    height: 170vh;
+    background-image: url(../Image/menu\ part\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.menu_con_chart h1{
+    font-size: 36px;
+    color: var(--color4);
+    padding-bottom: 15px;
+}
+.menu_con_devider_img{
+    padding-bottom: 20px;
+}
+.menu_chart h4{
+    font-size: 21px;
+    color: var(--color4);
+}
+
+.menu_chart{
+    border-bottom: 2px solid var(--color4);
+}
+
+.menu_chart ~ p{
+    font-size: 16px;
+    color: var(--color2);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* ===== special menu chart style starting here ==== */
+
+.menu_chart_special{
+    border: 1px solid var(--color4);
+}
+.special_sticky_box{
+    height: 20px;
+    width: 70px;
+    background-color: var(--color4);
+    top: -21px;
+    right: -1px;
+}
+
+.special_sticky_box p{
+    font-size: 14px;
+    color: var(--color3);
+}
+.menu_chart_special h4{
+    padding-top: 15px;
+    font-size: 21px;
+    color: var(--color4);
+}
+
+.menu_chart_special p{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.menu_chart_special_con{
+    border-bottom: 1px solid var(--color4);
+}
+/* ===== special menu chart style start here ==== */
+
+/* ===== menu part style end here ===== */
+
+
+/* ===== Gurst review part style start here ===== */
+
+.guest_review_part{
+    height: 100vh;
+    background-image: url(../Image/review\ part\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.review_con{
+    background-color: rgba(0, 0, 0, .70);
+    margin-top: 70px;
+}
+
+.review_con h1{
+    font-size: 36px;
+    color: var(--color3);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.review_con .review_first-para{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 25px;
+    color: var(--color3);
+    line-height: 40px;
+    font-weight: 600;
+    padding: 30px 20px 0px 20px;
+}
+
+.review_con .review_first-para span{
+    font-size: 70px;
+    color: var(--color1);
+    line-height: 0px;
+    text-align: left !important;
+}
+
+.review_con .review_last-para{
+    font-size: 18px;
+    color: var(--color3);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/* ===== Gurst review part style end here ===== */
+
+.pre_footer_part{
+    height: 110vh;
+    background-image: url(../Image/feature\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.pre_footer_img{
+    padding-top: 100px;
+}
+.pre_footer_con{
+    padding-top: 100px;
+}
+.pre_footer_con h1{
+    font-size: 36px;
+    color: var(--color4);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.pre_footer_con p{
+    font-size: 16px;
+    color: var(--color2);
+    padding: 0px 30px 0px 30px;
+}
+
+.form_part{
+    padding: 0px 30px 0px 30px;
+}
+
+.form_con label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color4);
+}
+.form_con input{
+    background-color: transparent;
+    border: 2px solid #7c7c7c;
+    color: #7c7c7c;
+    padding-left: 10px;
+}
+
+.form_con input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    color: #7c7c7c;
+    padding-left: 10px;
+}
+
+.form_con select{
+    color: #7c7c7c;
+    background-color: transparent;
+    border: 2px solid #7c7c7c;
+    height: 28px;
+    
+}
+
+.form_con select option{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #7c7c7c;
+}
+
+.pre_footer_con button{
+    height: 40px;
+    width: 200px;
+    background-color: #c9a031;
+    border: 2px solid #c9a031;
+    color: var(--color3);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.pre_footer_con button:hover{
+    background-color: transparent;
+    color: var(--color4);
+}
+
+.footer_part{
+    background-color: var(--color5);
+    color: var(--color6);
+}
+
+.footer_part h1{
+    font-size: 21px;
+    padding-bottom: 15px;
+}
+
+.footer_devider_img{
+    padding-bottom: 20px;
+}
+
+.footer_con .day{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color6);
+}
+
+.footer_con .para_3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 0px 70px 0px 70px ;
+}
+
+.footer_icon_part a{
+    color: var(--color6);
+    font-size: 20px;
+}
+
+.footer_icon_part a:hover{
+    color: var(--color4);
+}

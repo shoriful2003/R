@@ -1,0 +1,198 @@
+@media only screen and (max-width: 1600px) {
+    .pre_footer_img{
+        height: 90%;
+    }
+    
+}
+
+@media only screen and (max-width: 1399.98px) {
+    .pre_footer_img{
+        height: 85%;
+    }
+   
+}
+
+@media only screen and (max-width: 1360px) {
+    .pre_footer_img{
+        height: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .hero_con h1{
+        font-size: 65px;
+    }
+    .about_con{
+        margin-top: 90px;
+    }
+    .about_con p{
+        padding: 0px 50px 0px 60px;
+    }
+   .feature_part{
+    overflow: hidden;
+   }
+   .pre_footer_img{
+    padding-top: 140px;
+   }
+   
+}
+
+@media only screen and (max-width: 991.98px) {
+
+    .navbar-nav{
+        background-color: rgba(0, 0, 0, .20) !important;
+    }
+    .nav-item{
+        justify-content: center !important;
+    }
+    .nav-item a:hover{
+        color: #cc9600 !important;
+    }
+    
+    .hero_con h1{
+        font-size: 52px;
+    }
+
+    .hero_anchor{
+        margin-top: 30px;
+    }
+    .feature_part{
+        height: 90vh;
+    }
+    .feature_con{
+        padding-top: 50px;
+    }
+    .feature_con p{
+        line-height: 20px;
+        padding: 0px 20px 10px 20px;
+    }
+    .signature_img{
+        height: 200px;
+    }
+    .dish_img{
+        margin-top: 120px;
+        overflow: hidden;
+    }
+    .about_part{
+        height: 105vh;
+    }
+    .about_con{
+        margin-top: 60px;
+    }
+    .about_con p{
+        line-height: 22px;
+    }
+    .about_img{
+        padding: 20px 30px 20px 30px;
+    }
+
+    .menu_part{
+        height: 190vh;
+    }
+    .guest_review_part{
+        height: 115vh;
+    }
+    .pre_footer_part{
+        height: 110vh;
+    }
+    .pre_footer_img{
+        padding-top: 200px;
+    }
+    .pre_footer_con{
+        padding-top: 50px;
+    }
+    .pre_footer_con h1{
+        font-size: 35px;
+    }
+    .menu_chart .Cornish_Mackerel{
+        font-size: 19px;
+    }
+    .footer_devider_img{
+        width: 200px;
+    }
+    .footer_con .para_3{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        padding: 0px 20px 0px 20px ;
+    }
+}
+
+@media only screen and (max-width: 767.90px) {
+    .dish_img{
+        margin-top: 170px;
+        overflow: hidden;
+    }
+    .feature_part{
+        height: 100vh;
+    }
+    .signature_img{
+        height: 150px;
+    }
+
+    .about_part{
+        height: 105vh;
+    }
+    .about_img img{
+        height: 100px;
+    }
+
+    .menu_part{
+        height: 170vh;
+    }
+    .menu_con_chart h1{
+        font-size: 26px;
+        padding-bottom: 5px;
+    }
+    .menu_con_devider_img{
+        height: 35px;
+    }
+    .menu_chart h4{
+        font-size: 16px;
+        color: var(--color4);
+    }
+    .menu_chart ~ p{
+        margin-left: 10px;
+    }
+    .menu_chart_special h4{
+        padding-top: 15px;
+        font-size: 16px;
+        color: var(--color4);
+    }
+    .menu_chart_special p{
+        text-align: left;
+        margin-left: 5px;
+        padding: 2px;
+    }
+
+    .review_con{
+        margin-top: 50px;
+    }
+    .review_con .review_first-para{
+        font-size: 20px;
+        padding: 30px 20px 0px 10px;
+    }
+
+    .pre_footer_part{
+        height: 130vh;
+    }
+    .pre_footer_img{
+        padding-top: 50px;
+        
+    }
+
+    .footer_devider_img{
+        height: 35px;
+        width: 80% !important;
+    }
+    .footer_part h1{
+        font-size: 18px;
+    }
+    .footer_con .day{
+        font-size: 16px;
+    }
+    .footer_part p{
+        font-size: 14px;
+    }
+}
+
